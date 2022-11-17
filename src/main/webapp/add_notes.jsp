@@ -16,14 +16,16 @@
 		<!-- This Is Add Form -->
 
 		<form action="SaveNoteServelet" method="post">
-			<div class="form-group">
+			<div class="form-group ">
 				<label for="title">Note Title</label> <input name="title"
-					type="text" class="form-control" id="title"
-					aria-describedby="emailHelp" placeholder="Title" required>
+					type="text" class="form-control  rounded border border-dark"
+					id="title" aria-describedby="emailHelp" placeholder="Title"
+					required>
 			</div>
 			<div class="form-group">
 				<label for="content">Note content</label>
-				<textarea name="content" class="form-control" id='content'
+				<textarea name="content"
+					class="form-control  rounded border border-dark" id='content'
 					placeholder="Enter Content Here" style="height: 250px;" required></textarea>
 			</div>
 			<div class="container text-center">
